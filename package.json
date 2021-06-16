@@ -4,8 +4,9 @@
   "description": "React webpack boilerplate",
   "main": "./index.js",
   "scripts": {
+    "prebuild": "rimraf dist/**",
     "start": "webpack serve ./index.js --mode development --hot --open",
-    "build": "webpack ./index.js --mode production",
+    "build": "npm run prebuild & webpack ./index.js --mode production",
     "commit": "git cz"
   },
   "keywords": [
@@ -30,6 +31,7 @@
     "git-cz": "^4.7.6",
     "html-webpack-plugin": "^5.3.1",
     "postcss-loader": "^5.2.0",
+    "rimraf": "^3.0.2",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.35.1",
