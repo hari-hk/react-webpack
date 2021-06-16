@@ -25,3 +25,7 @@ Featured scripts will reduce the time
 #### Commit to git
 
 `npm run commit` commit your changes to git using git-cz library
+
+#### lint
+
+`npm run lint` find your lint error based on airbnb
