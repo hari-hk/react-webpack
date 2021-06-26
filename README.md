@@ -37,11 +37,3 @@ Featured scripts will reduce the time
 #### Generate a reusable component
 
 `npm run generate component` <name>
-
-#### Generate a custom hook
-
-`npm run generate hook` <name>
-
-#### Generate a service
-
-`npm run generate service` <name>
