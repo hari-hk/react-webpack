@@ -1,7 +1,7 @@
 {
   "name": "webpack-app",
   "version": "1.0.0",
-  "description": "React webpack boilerplate",
+  "description": "React webpack starter kit",
   "main": "./index.js",
   "scripts": {
     "prebuild": "rimraf dist/**",
@@ -9,7 +9,8 @@
     "build": "npm run prebuild & webpack ./index.js --mode production",
     "lint": "eslint . --ignore-pattern .eslintignore",
     "lint:fix": "npm run lint & --fix ",
-    "commit": "git cz"
+    "commit": "git cz",
+    "generate": "plop"
   },
   "keywords": [
     "react",
@@ -39,6 +40,7 @@
     "file-loader": "^6.2.0",
     "git-cz": "^4.7.6",
     "html-webpack-plugin": "^5.3.1",
+    "plop": "^2.7.4",
     "postcss-loader": "^5.2.0",
     "prettier": "^2.3.1",
     "rimraf": "^3.0.2",
