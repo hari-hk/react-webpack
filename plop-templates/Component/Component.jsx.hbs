@@ -1,16 +1,8 @@
 import React from 'react';
 import styles from './{{pascalCase name}}.module.scss';
 
-const {{pascalCase name}} = props => {
-  return (
-    <div className={styles['c-{{kebabCase name}}']}>
-    </div>
-  );
-};
+const {{pascalCase name}} = () => <div className={styles['c-{{kebabCase name}}']}>{{pascalCase name}} component</div>;
 
-{{pascalCase name}}.defaultProps = {
-
-};
-
+{{pascalCase name}}.defaultProps = {};
 
 export default {{pascalCase name}};
