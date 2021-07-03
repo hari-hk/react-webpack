@@ -1,8 +1,8 @@
 {
-  "name": "webpack-app",
+  "name": "react-webpack",
   "version": "1.0.0",
   "description": "React webpack starter kit",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist/**",
     "start": "webpack serve ./index.js --mode development --hot --open",
